@@ -583,6 +583,19 @@ export default function Home() {
           <p>Built for modern 3D printing workflow.</p>
         </div>
       </footer>
+      {/* FLOATING ZALO BUTTON */}
+<a
+  href="https://zalo.me/0394318361"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="fixed bottom-5 right-5 z-50"
+>
+  <div className="w-14 h-14 rounded-full bg-blue-500 shadow-lg flex items-center justify-center hover:scale-110 transition">
+    <span className="text-white font-bold text-sm">
+      Zalo
+    </span>
+  </div>
+</a>
     </main>
   );
 }
