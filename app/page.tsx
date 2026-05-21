@@ -232,35 +232,43 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
-            <div className="bg-white rounded-3xl p-7 shadow-sm hover:-translate-y-2 hover:shadow-xl transition duration-300">
-              <p className="text-4xl mb-5">🧩</p>
-              <h3 className="text-xl font-semibold mb-3">Mô hình & decor</h3>
-              <p className="text-zinc-600 leading-7">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            <div className="bg-white rounded-3xl p-4 md:p-7 shadow-sm hover:-translate-y-2 hover:shadow-xl transition duration-300">
+              <div className="mb-5 flex h-12 w-12 items-center justify-center text-4xl leading-none">
+  🧩
+</div>
+              <h3 className="text-base md:text-xl font-semibold mb-2 md:mb-3 leading-snug">Mô hình & decor</h3>
+              <p className="text-sm md:text-base text-zinc-600 leading-6 md:leading-7">
                 In mô hình trang trí, figure, vật phẩm cá nhân và sản phẩm sáng tạo.
               </p>
             </div>
 
             <div className="bg-white rounded-3xl p-7 shadow-sm hover:-translate-y-2 hover:shadow-xl transition duration-300">
-              <p className="text-4xl mb-5">⚙️</p>
-              <h3 className="text-xl font-semibold mb-3">Chi tiết cơ khí</h3>
-              <p className="text-zinc-600 leading-7">
+            <div className="mb-5 flex h-12 w-12 items-center justify-center text-4xl leading-none">
+  ⚙️
+</div>
+              <h3 className="text-base md:text-xl font-semibold mb-2 md:mb-3 leading-snug">Chi tiết cơ khí</h3>
+              <p className="text-sm md:text-base text-zinc-600 leading-6 md:leading-7">
                 In mẫu thử, chi tiết lắp ghép, đồ gá nhỏ và chi tiết kiểm tra thiết kế.
               </p>
             </div>
 
             <div className="bg-white rounded-3xl p-7 shadow-sm hover:-translate-y-2 hover:shadow-xl transition duration-300">
-              <p className="text-4xl mb-5">🎓</p>
-              <h3 className="text-xl font-semibold mb-3">Đồ án sinh viên</h3>
-              <p className="text-zinc-600 leading-7">
+              <div className="mb-5 flex h-12 w-12 items-center justify-center text-4xl leading-none">
+  🎓
+</div>
+              <h3 className="text-base md:text-xl font-semibold mb-2 md:mb-3 leading-snug">Đồ án sinh viên</h3>
+              <p className="text-sm md:text-base text-zinc-600 leading-6 md:leading-7">
                 Hỗ trợ in mô hình đồ án, sản phẩm học tập, mô phỏng và prototype.
               </p>
             </div>
 
             <div className="bg-white rounded-3xl p-7 shadow-sm hover:-translate-y-2 hover:shadow-xl transition duration-300">
-              <p className="text-4xl mb-5">🦾</p>
-              <h3 className="text-xl font-semibold mb-3">Cosplay & mô hình</h3>
-              <p className="text-zinc-600 leading-7">
+              <div className="mb-5 flex h-12 w-12 items-center justify-center text-4xl leading-none">
+  🦾
+</div>
+              <h3 className="text-base md:text-xl font-semibold mb-2 md:mb-3 leading-snug">Cosplay & mô hình</h3>
+              <p className="text-sm md:text-base text-zinc-600 leading-6 md:leading-7">
                 In mặt nạ, giáp, phụ kiện cosplay và các chi tiết kích thước lớn.
               </p>
             </div>
@@ -285,7 +293,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-5 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5">
             <div className="bg-[#f5f5f3] rounded-3xl p-6">
               <p className="text-3xl font-bold text-orange-500 mb-5">01</p>
               <h3 className="font-semibold text-lg mb-3">Gửi file</h3>
