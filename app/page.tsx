@@ -520,6 +520,14 @@ export default function Home() {
   >
     Nhắn Zalo
   </a>
+<a
+  href="https://forms.gle/duTTWuvoiEAWZaFE7"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="block text-center w-full rounded-full border border-zinc-300 hover:border-orange-500 hover:text-orange-500 transition text-zinc-800 px-6 py-3"
+>
+  Gửi thông tin qua Form
+</a>
 </div>
 <p className="text-center text-sm text-zinc-500">
   Hoặc liên hệ trực tiếp:{" "}
