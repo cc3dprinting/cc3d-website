@@ -596,6 +596,19 @@ export default function Home() {
     </span>
   </div>
 </a>
+{/* FLOATING MESSENGER BUTTON */}
+<a
+  href="https://m.me/in3dcongchinh"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="fixed bottom-24 right-5 z-50"
+>
+  <div className="w-14 h-14 rounded-full bg-blue-600 shadow-lg flex items-center justify-center hover:scale-110 transition">
+    <span className="text-white font-bold text-xs">
+      Mess
+    </span>
+  </div>
+</a>
     </main>
   );
 }
