@@ -42,12 +42,7 @@ export default function Home() {
   Liên hệ
 </a>
           </div>
-<button
-  className="md:hidden text-3xl leading-none"
-  onClick={() => setMenuOpen(!menuOpen)}
->
-  {menuOpen ? "✕" : "☰"}
-</button>
+
           <a
   href="#upload"
   className="bg-orange-500 hover:bg-orange-600 transition text-white px-5 py-2 rounded-full text-sm shadow-lg shadow-orange-200"
