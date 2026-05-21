@@ -527,7 +527,7 @@ export default function Home() {
 </p>
 
               <p className="text-center text-sm text-zinc-500">
-                Giai đoạn đầu, form này là giao diện mẫu. Sau này sẽ kết nối để gửi file thật.
+                
               </p>
             </div>
           </div>
