@@ -11,11 +11,17 @@ export default function Home() {
       {/* NAVBAR */}
       <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-white/80 border-b border-zinc-200">
         <div className="max-w-7xl mx-auto flex items-center justify-between px-6 md:px-8 py-5">
+          <button
+  className="md:hidden text-3xl leading-none"
+  onClick={() => setMenuOpen(!menuOpen)}
+>
+  {menuOpen ? "✕" : "☰"}
+</button>
           <h1 className="text-2xl font-bold tracking-tight">
   CC<span className="text-orange-500">3D</span>
 </h1>
 
-          <div className="hidden md:flex gap-10 text-sm font-medium text-zinc-700">
+          <div className="hidden md:flex gap-10 text-sm font-medium text-zinc-700 flex-1 justify-center">
                                   <a href="#home" className="hover:text-orange-500 transition">
               Trang chủ
             </a>
